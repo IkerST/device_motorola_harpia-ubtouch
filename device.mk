@@ -35,3 +35,8 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.target.rc
+
+# Ubuntu Overlay Files
+#
+PRODUCT_COPY_FILES += \
+    device/motorola/harpia/ubuntu/70-harpia.rules:system/halium/lib/udev/rules.d/70-harpia.rules
