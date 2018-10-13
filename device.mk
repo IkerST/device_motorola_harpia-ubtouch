@@ -39,4 +39,5 @@ PRODUCT_PACKAGES += \
 # Ubuntu Overlay Files
 #
 PRODUCT_COPY_FILES += \
-    device/motorola/harpia/ubuntu/70-harpia.rules:system/halium/lib/udev/rules.d/70-harpia.rules
+    device/motorola/harpia/ubuntu/70-harpia.rules:system/halium/lib/udev/rules.d/70-harpia.rules \
+    device/motorola/harpia/ubuntu/android.conf:system/halium/etc/ubuntu-touch-session.d/android.conf
